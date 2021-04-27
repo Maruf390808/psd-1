@@ -1,0 +1,33 @@
+
+/* Tablet Leyout */
+@media only screen and (min-width:480px) and (max-width:991px){
+
+   .header_bottom {padding: 30px 0;}
+   .header_bottom_right {margin-top: 10px;}
+   .content_right h1 {font-size: 45px;}
+   .slider{padding-top: 0px;}
+   .work_area_right p {margin-bottom: -10px;}
+   .work_area_right h3 {margin-top: 0px;}
+   .main_menu ul li {margin: 10px 4px; }
+   .slicknav_btn {display: none;}
+}
+
+/* Mobile Leyout */
+@media only screen and (min-width:200px) and (max-width:479px){
+
+   .header_top_left{width: 100%; margin: 0px 0px 20px 25px;}
+   #search { margin-right:57px;}
+   .header_bottom {padding: 10px 0;}
+   .header_bottom img {margin-left: 75px;}
+   .header_bottom_right {max-width: 100%;margin: 15px 70px 0px 0px;}
+   .content_right h1 {font-size: 30px;}
+   .content_left img {margin-bottom: 15px;}
+   .work_area {padding: 30px 0;display: grid;grid-template-columns: 1fr;grid-column-gap: 0px;}
+   .work_area_left img { margin-left: 30px;}
+   .footer_top {display: grid;grid-template-columns:1fr;grid-column-gap:40px;padding:20px 0;}
+   .footer_bottom_right {width: 100%; }
+   .main_menu {display: none;}
+   .slicknav_menu {
+      display: block;  
+  }
+}
